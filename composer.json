@@ -1,0 +1,55 @@
+{
+  "name": "arraypress/wp-mdash",
+  "version": "1.0.0",
+  "description": "A collection of WordPress functions for handling empty values consistently using mdash and other semantic formatting patterns",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/wp-mdash/",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "files": [
+      "src/formatting/mdash.php",
+      "src/formatting/dates.php",
+      "src/formatting/arrays.php",
+      "src/formatting/translate.php",
+      "src/helpers/display.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/arraypress/wp-mdash/issues",
+    "source": "https://github.com/arraypress/wp-mdash"
+  },
+  "keywords": [
+    "wordpress",
+    "mdash",
+    "empty-values",
+    "formatting",
+    "empty-states",
+    "display-patterns",
+    "wordpress-formatting",
+    "value-formatting",
+    "date-formatting",
+    "array-formatting",
+    "semantic-display",
+    "wordpress-display",
+    "null-handling",
+    "empty-handling",
+    "wordpress-utilities"
+  ],
+  "suggest": {
+    "wordpress/wordpress": "These functions are designed to work with WordPress"
+  }
+}
