@@ -92,7 +92,7 @@ echo esc_html_f( 'Hello %s', 'textdomain', 'World' );
 ## Requirements
 
 - PHP 7.4 or higher
-- WordPress 5.0 or higher
+- WordPress 6.7.1 or higher
 
 ## Contributing
 
